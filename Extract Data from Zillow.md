@@ -56,7 +56,7 @@ zillow_api_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXX'
 zillowiddict=[]
 resultindex =[]
 errorlist=[]
-``
+```
 ```
 data_set = data
 
@@ -117,7 +117,7 @@ zillowdf['DF_Index'] = resultindex
 zillowdf.head(10)
 ```
 
-####Merge Zillow Results to Original Dataframe
+#### Merge Zillow Results to Original Dataframe
 ```
 #assign index values to column
 #data_set = data_set.reset_index(drop=True)
